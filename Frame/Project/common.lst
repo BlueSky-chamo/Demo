@@ -1,0 +1,46 @@
+C51 COMPILER V7.06   COMMON                                                                04/21/2017 14:38:45 PAGE 1   
+
+
+C51 COMPILER V7.06, COMPILATION OF MODULE COMMON
+OBJECT MODULE PLACED IN .\common.obj
+COMPILER INVOKED BY: E:\keil\C51\BIN\C51.EXE ..\Common\common.c BROWSE INCDIR(..\Common;..\Lib;..\StartUp;..\User) DEBUG
+                    - OBJECTEXTEND PRINT(.\common.lst) TABS(2) OBJECT(.\common.obj)
+
+stmt level    source
+
+   1          // @Version       :V1.0
+   2          // @Filename      :common.c
+   3          // @Date          :2017-4-21
+   4          // @Author        :Chamo
+   5          // @Description   :公共函数源文件
+   6          
+   7          #include "common.h"
+   8          //  @Author ：chamo
+   9          //  @Date   ：2017-4-21
+  10          //  @function：简单延时
+  11          //  @Input        
+  12            //Param1 ：延时时间
+  13            //Param2 
+  14            //Param3 
+  15            //Param  
+  16          //  @Return：无返回值
+  17          void delay(unsigned int i)
+  18          {
+  19   1        unsigned char j;
+  20   1        for(i; i > 0; i--)  
+  21   1          for(j = 255; j > 0; j--);
+  22   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =     21    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

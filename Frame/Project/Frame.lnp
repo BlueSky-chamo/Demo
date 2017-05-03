@@ -1,0 +1,7 @@
+".\STARTUP.obj",
+".\main.obj",
+".\Beep.obj",
+".\Key.obj",
+".\Led.obj",
+".\common.obj" 
+TO "Frame" 
